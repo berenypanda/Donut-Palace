@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <nav class="navbar">
+    <a href="index.html"><img class="navbar-brand" src="images/high-res-logo.png" alt="logo"></a>
+    <button class="navbar-toggler col-xs-2" type="button" data-target="#navigation">
+      <span class="fa-solid fa-bars"></span>
+    </button>
+    <div class="navigation collapse col-md-6" id="navigation">
+      <ul class="navbar-nav">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="#">Menu</a>
+        </li>
+        <li>
+          <a href="#">Cater</a>
+        </li>
+        <li>
+            <a href="#">About</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="page-title">
+    <h1>Add a Menu Item</h1>
+  </div>
+    <form id="addItem">
+        <label for="itemName">Item Name:</label><br>
+    <input type="text" id="itemName" name="itemName"><br><br>
+    
+    <label for="category">Category:</label><br>
+    <select id="category" name="category" >
+      <option value="category1">Category 1</option>
+      <option value="category2">Category 2</option>
+      <option value="category3">Category 3</option>
+    </select><br><br>
+
+    <label for="price">Price:</label><br>
+    <input type="text" id="price" name="price" pattern="\d+"><br><br>
+    
+    <label for="description">Description:</label><br>
+    <textarea id="description" name="description" rows="4" maxlength="255" required></textarea><br><br>
+
+
+    <label for="image">Image:</label><br>
+    <input type="file" id="image" name="image" accept="image/*"><br><br>
+    
+    <button type="submit">Add Item</button>
+    </form>
+</body>
+</html>

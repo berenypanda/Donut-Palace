@@ -617,3 +617,16 @@ max-height: 10vh;}
         font-size:var(--h4-font-size);
     }
 }
+
+/*Form Pages*/
+form {margin-left: 5%;}
+form label {
+    font-size:var(--h3-font-size);
+    color: var(--secondary);
+}
+
+form button {
+    background-color: var(--accent);
+    padding: 2%;
+    border-radius: 5px;
+}
