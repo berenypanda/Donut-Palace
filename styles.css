@@ -586,6 +586,13 @@ h3 {
 
 /*End of Grid System*/
 
+/*Shared Page Styles*/
+.page-title {
+    margin-top: 2%;
+    margin-left: 5%;
+}
+/*End of Shared Page Styles*/
+
 /*Menu Styles*/
 
 .menu-section {
