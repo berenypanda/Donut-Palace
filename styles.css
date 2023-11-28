@@ -585,3 +585,19 @@ h3 {
 }
 
 /*End of Grid System*/
+
+/*Menu Styles*/
+
+.menu-section {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: max-content;
+    justify-content: center;
+}
+
+@media screen  and (min-width:768px) {
+    .menu-section {
+        margin-top: 10%;
+        grid-template-columns: repeat(3, max-content)
+    }
+}
