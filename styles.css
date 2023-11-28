@@ -605,6 +605,8 @@ h3 {
 @media screen  and (min-width:768px) {
     .menu-section {
         margin-top: 10%;
-        grid-template-columns: repeat(3, max-content)
+        grid-template-columns: repeat(3, max-content);
+        column-gap: 40px;
+        justify-content: space-evenly;
     }
 }
