@@ -40,6 +40,11 @@
     --h1-font-size: calc(1rem * var(--base-scale) * var(--base-scale) * var(--base-scale));
 }
 
+/*Shared Page Styles*/
+.page-title {
+    margin-top: 2%;
+    margin-left: 5%;
+}
 
 body {
     font-family:  'Hind Siliguri', sans-serif;
@@ -72,7 +77,7 @@ h3 {
     margin: 10vh auto;
     width: 80%;
 }
-
+/*End of Shared Page Styles*/
 
 /* Navigation Styles */
 .navbar {
@@ -578,12 +583,18 @@ max-height: 10vh;}
 
 /*End of Grid System*/
 
-/*Shared Page Styles*/
-.page-title {
-    margin-top: 2%;
-    margin-left: 5%;
+/*Home Page Styles*/
+
+/*Hero Section*/
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/hero-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
 }
-/*End of Shared Page Styles*/
+
+.hero-text > h1, p {color: (var(--primary));}
+
 
 /*Menu Styles*/
 
