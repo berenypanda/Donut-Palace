@@ -595,6 +595,27 @@ max-height: 10vh;}
 
 .hero-text > h1, p {color: (var(--primary));}
 
+.hero button {
+    background-color: var(--accent);
+    padding: 2%;
+    border-radius: 5px;
+}
+/*About Us - Mini */
+.about-us-section {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 70ch;
+    margin-left: 5%;
+}
+.about-us-card {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.about-us-section i {
+    font-size: 200px;
+}
 
 /*Menu Styles*/
 
