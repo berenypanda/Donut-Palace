@@ -597,6 +597,7 @@ max-height: 10vh;}
 .menu-item button {
     padding: 5%;
     border-radius: 10px;
+    background-color: var(--accent);
 }
 
 @media screen  and (min-width:768px) {
