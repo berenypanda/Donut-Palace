@@ -600,6 +600,11 @@ max-height: 10vh;}
     background-color: var(--accent);
 }
 
+/* detail page*/
+.menu-item.detail {
+    display: flex;
+}
+
 @media screen  and (min-width:768px) {
     .menu-section {
         margin-top: 10%;
